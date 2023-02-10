@@ -21,4 +21,12 @@ REST Endpoint:&nbsp;[https://06ba2c18-ac5b-4e14-988c-94f400643ebf.mock.pstmn.io/
 
 No Authentication is needed to the TargetAsset-API.
 
+## Solution
+- Project updated as per ablove requirements. 
+- After deployment it can be accessed with following URL {serverURL}/targetAsset
+- Project is created using .net core6 SDK and Microsoft.NET.Test.SDK
+- Dependency Injection is used to initialize objects automatically.
+- MVC design pattern in used.
+- A service is created for api call handling using HttpClientFactory.
+
 
